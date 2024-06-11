@@ -157,9 +157,10 @@ li {
         }
     ?>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
-        Login: <input type="text" name="login" placeholder="USER"><br>
-        Senha: <input type="password" name="senha" placeholder="SENHA"><br>
+        Login: <input type="text" name="login" placeholder="Usuário"><br>
+        Senha: <input type="password" name="senha" placeholder="Senha"><br>
         <button type="submit" name="btn-entrar"> Entrar </button>
+        <a href="cadastro.php">Cadastre-se</a>
     </form>
 </div>
         <center>

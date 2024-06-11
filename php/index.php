@@ -69,7 +69,7 @@
                     default:
                         print "<h1 class='text-white'>Bem vindos</h1>";
                         print "<br>";
-                        print "<h3 class='p'>Olá, esse é um CRUD, 
+                        print "<h3 class='p'>Olá, esse é um CRUD, utilizando PHP e MySQL, 
                         onde nele é possivel fazer cadastros de funcionários da Gazin, as opções estão acima.</h3>";
                 }   
             ?>
