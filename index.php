@@ -62,7 +62,7 @@ body {
 
 #div-login {
     background-color: rgba(255, 255, 255, 0.541);
-    height: 450px;
+    height: 480px;
     width: 600px;
     border-radius: 10px;
     position: absolute;
@@ -79,9 +79,10 @@ input {
     height: 60px;
     border-radius: 7px;
     box-shadow: 7px 7px #727a99;
+    font-size: 16px;
 }
 
-button {
+.button {
     color:white;
     font-size: 15px;
     font-weight: bold;
@@ -118,12 +119,10 @@ button:hover {
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(0, 0, 125);
-    animation: h2 1s;
-    animation: h2-animation 4s infinite alternate-reverse;
+    color: #112162;
 }
 
-@keyframes h2-animation {
+@keyframes a-animation {
     from {
         color: #112162;
     }
@@ -136,6 +135,13 @@ h1 {
 li {
     list-style: none;
     color: rgb(216, 68, 68);
+}
+
+.cadastro {
+    position: relative;
+    top: 20px;
+    animation: a 1s;
+    animation: a-animation 2s infinite alternate-reverse;
 }
 
     </style>
@@ -157,12 +163,15 @@ li {
         }
     ?>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
-        Login: <input type="text" name="login" placeholder="Usuário"><br>
-        Senha: <input type="password" name="senha" placeholder="Senha"><br>
-        <button type="submit" name="btn-entrar"> Entrar </button>
-        <a href="cadastro.php">Cadastre-se</a>
+        <img src="imagem/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg" width="30px">
+        <input type="text" name="login" placeholder="Usuário"><br>
+        <img src="php/imagens/png-transparent-computer-icons-padlock-lock-technic-symbol-key-thumbnail.png" width="30px"> 
+        <input type="password" name="senha" placeholder="Senha"><br>
+        <button type="submit" name="btn-entrar" class="button"> Entrar </button>
     </form>
+    <a href="cadastro.php" class="cadastro">Cadastre-se</a>
 </div>
+
         <center>
             <p class="copy">&copy;Copyright 1966-2024 Gazin</p>
         </center>
