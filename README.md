@@ -1,8 +1,10 @@
 
 <body>
 <h2>
-    Projeto CRUD <br><br>
-
-Olá, meu nome é Felipe Santana, estou atuando como Jovem Aprendiz na empresa Gazin, e esse é meu 
+    Projeto CRUD
+</h2><br><br>
+<hr>
+    
+<p>Olá, meu nome é Felipe Santana, estou atuando como Jovem Aprendiz na empresa Gazin, e esse é meu 
 primeiro CRUD, nele é possível fazer cadastros de funcionários, além disso é possível
-editar os cadastros ou deletar eles.</h2>
+editar os cadastros ou deletar eles.</p>
