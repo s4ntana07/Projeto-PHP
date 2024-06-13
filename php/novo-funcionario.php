@@ -27,7 +27,7 @@
         <input type="hidden" name="acao" value="cadastrar">
         <div class="mb-3">
             <label class="text-white">CPF</label>
-            <input type="text" name="cpf" placeholder="xxx.xxx.xxx-xx" class="form-control input bg-input">
+            <input type="text" name="cpf" placeholder="xxxxxxxxxxx" class="form-control input bg-input">
         </div>
         <div class="mb-3">
             <label class="text-white">Nome</label>

@@ -13,7 +13,7 @@
         }
 
         .fundo{
-            background: linear-gradient( #212529,#1f348f, #1f348f, #1f348f,#1f348f);
+            background: linear-gradient( #081239,#1f348f, #1f348f, #1f348f,#1f348f);
             width: 100%;
             height: 100vh;
         }
