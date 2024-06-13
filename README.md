@@ -2,7 +2,7 @@
 <body>
 <h2>
     Projeto CRUD
-</h2><br><br>
+</h2>
 <hr>
     
 <p>Olá, meu nome é Felipe Santana, estou atuando como Jovem Aprendiz na empresa Gazin, e esse é meu 
