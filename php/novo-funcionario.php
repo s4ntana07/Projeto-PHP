@@ -5,18 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novo Funcionário</title>
     <style>
-        .bg-input {
-            background-color: rgba(255, 255, 255, 0.641);
-            border: #23326a;
-            box-shadow: 4px 4px #23326a;
-            width: 1000px;
-            font-size: 20px;
-        }
 
-        .formulario{
-            position: relative;
-            left: 155px;
-        }
     </style>
 </head>
 <body>

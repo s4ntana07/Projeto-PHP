@@ -3,31 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Listar Funcionários</title>
     <style>
-        .tabela {
-            border: 3px solid white;
-            border-radius: 2px 2px 2px 2px;
-        }
 
-        th {
-            background: #0e1c53;
-            border: 2px solid white;
-            color: white;
-            width: 350px;
-            padding: 6px;
-        }
-
-        td {
-            background: #2e4299;
-            border: 2px solid white;
-            color: white;
-            padding: 6px;
-        }
-
-        .acao{
-            width: 400px;
-        }
     </style>
 </head>
 <body>
