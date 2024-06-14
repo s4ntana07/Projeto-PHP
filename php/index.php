@@ -27,6 +27,9 @@
                     <li class="nav-item">
                         <a class="nav-link text-light" href="?page=listar">Listar Funcionários</a>
                     </li>
+                    <li class="left">
+                        <a class="nav-link text-light" href="https://s4ntana07.github.io/Projetoshtml/">Site Informações Gazin</a>
+                    </li>
                 </ul>
             </div>
         </div>
