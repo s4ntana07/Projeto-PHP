@@ -24,13 +24,6 @@
                 print "<script>location.href= '?page=listar'</script>;";
             }
 
-            if($row == 1) {
-                print "<script>alert('Este CPF ja existe');</script>";
-                header('Location: index.php');
-                exit;
-            }
-
-
             break;
         case 'editar':
                 $cpf = $_POST["cpf"];

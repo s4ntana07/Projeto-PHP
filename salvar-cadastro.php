@@ -21,7 +21,7 @@
                 print "<script>location.href= 'index.php'</script>;";
             } else {
                 print "<script>alert('Não foi possivel efetuar o cadastro');</script>";
-
+                print "<script>location.href= 'index.php'</script>;";
             }
 
             break;
