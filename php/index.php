@@ -11,11 +11,10 @@
 <body class="fundo">
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid">
-        <img src="imagens/Gazin_1_cca4b227db.webp" width="120px" alt="" class="img-gazin">
-        
-            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <img src="imagens/Gazin_1_cca4b227db.webp" width="120px" alt="" class="img-gazin">
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                 </button>
             <div class="collapse navbar-collapse mg-div" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
