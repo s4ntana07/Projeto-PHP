@@ -50,9 +50,12 @@
 
 <body class="body">
     
-    <section>
-        <img src="imagem/24b37378-d1ad-42a6-b917-e891fa7399b9.jpg" width="300px">
-    </section>
+    <center>
+        <div>
+            <img src="imagem/24b37378-d1ad-42a6-b917-e891fa7399b9.jpg" width="300px">
+        </div>
+    
+
 
 <div id="div-login">
     <h1 class="h1">Login</h1>
@@ -68,13 +71,10 @@
         <input type="text" name="login" placeholder="Usuário" class="input1"><br>
         <img src="php/imagens/png-transparent-computer-icons-padlock-lock-technic-symbol-key-thumbnail.png" width="30px"> 
         <input type="password" name="senha" placeholder="Senha" class="input1"><br>
-        <button type="submit" name="btn-entrar" class="button"> Entrar </button>
+        <button type="submit" name="btn-entrar" class="button"> <h3>Entrar</h3> </button>
     </form>
-    <a href="cadastro.php" class="cadastro">Cadastre-se</a>
+    <a href="cadastro.php" class="cadastro"><h3>Cadastre-se</h3></a>
 </div>
-
-        <center>
-            <p class="copy">&copy;Copyright 1966-2024 Gazin</p>
-        </center>
+</center>
 </body>
 </html>
