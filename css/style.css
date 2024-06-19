@@ -126,9 +126,13 @@ label {
 @keyframes button {
     from {
         background-color: #081239;
+        width: 140px;
+        height: 70px;
     }
     
     to {
-        background-color: #344794;       
+        background-color: #344794;
+        width: 150px;
+        height: 80px;  
     }
 }

@@ -1,13 +1,15 @@
 <?php
+
+    $cpf = $_POST["cpf"];
+    $nome = $_POST["nome"];
+    $email = $_POST["email"];
+    $telefone = $_POST["telefone"];
+    $data_entrada = $_POST["data_entrada"];
+    $cargo = $_POST["cargo"];
+    $setor = $_POST["setor"];
+
     switch ($_REQUEST["acao"]) {
         case 'cadastrar':
-            $cpf = $_POST["cpf"];
-            $nome = $_POST["nome"];
-            $email = $_POST["email"];
-            $telefone = $_POST["telefone"];
-            $data_entrada = $_POST["data_entrada"];
-            $cargo = $_POST["cargo"];
-            $setor = $_POST["setor"];
 
             $sql = "INSERT INTO funcionarios (
                 nome, email, cpf, telefone, data_entrada, setor, cargo)
@@ -26,14 +28,7 @@
 
             break;
         case 'editar':
-                $cpf = $_POST["cpf"];
-                $nome = $_POST["nome"];
-                $email = $_POST["email"];
-                $telefone = $_POST["telefone"];
-                $data_entrada = $_POST["data_entrada"];
-                $cargo = $_POST["cargo"];
-                $setor = $_POST["setor"];
-    
+
                 $sql = "UPDATE funcionarios SET
                             cpf='{$cpf}',
                             nome='{$nome}',
@@ -43,9 +38,8 @@
                             telefone='{$telefone}',
                             data_entrada='{$data_entrada}'
                             WHERE
-                                cpf=". $_REQUEST["cpf"];
+                                cpf='{$cpf}'";
                             
-                
                 $res = $conn->query($sql);
     
                 if($res == true) {
@@ -58,7 +52,7 @@
             break;
         case 'excluir':
             
-            $sql = "DELETE FROM funcionarios WHERE cpf=".$_REQUEST["cpf"];
+            $sql = "DELETE FROM funcionarios WHERE id=".$_REQUEST["id"];
             
             $res = $conn->query($sql);
     

@@ -14,7 +14,7 @@
     <h1 class="mb-4 text-white">Editar Funcionário</h1>
     </center>
     <?php
-        $sql = "SELECT * FROM funcionarios WHERE cpf=".$_REQUEST["cpf"];
+        $sql = "SELECT * FROM funcionarios WHERE id=".$_REQUEST["id"];
         $res = $conn->query($sql);
         $row = $res->fetch_object();
     ?>
@@ -22,7 +22,7 @@
         <input type="hidden" name="acao" value="editar">
         <div class="mb-3">
             <label class="text-white">CPF</label>
-            <input type="number" name="cpf" value="<?php print $row->cpf; ?>" class="form-control input bg-input" required>
+            <input id="cpf" type="text" name="cpf" value="<?php print $row->cpf; ?>" class="form-control input bg-input" required>
         </div>
         <div class="mb-3">
             <label class="text-white">Nome</label>
@@ -30,7 +30,7 @@
         </div>
         <div class="mb-3">
             <label class="text-white">E-mail</label>
-            <input type="email" name="email" value="<?php print $row->email; ?>" class="form-control input bg-input" required>
+            <input type="text" name="email" value="<?php print $row->email; ?>" class="form-control input bg-input" required>
         </div>
         <div class="mb-3">
             <label class="text-white">Setor</label>
@@ -42,16 +42,25 @@
         </div>
         <div class="mb-3">
             <label  class="text-white">Telefone</label>
-            <input type="text" name="telefone" value="<?php print $row->telefone; ?>" class="form-control input bg-input" required>
+            <input id="phone" type="text" name="telefone" value="<?php print $row->telefone; ?>" class="form-control input bg-input" required>
         </div>
         <div class="mb-3">
             <label class="text-white">Data de entrada</label>
-            <input type="date" name="data_entrada" value="<?php print $row->data_entrada; ?>" class="form-control input bg-input" required>
+            <input id="data_entrada" type="date" name="data_entrada" value="<?php print $row->data_entrada; ?>" class="form-control input bg-input" required>
         </div>
         <div class="mb-3 p-3">
             <button type="submit" class="btn btn-primary p-3">Enviar</button>
         </div>
-    </form>
+    </form>    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+    
+    <script>
+        $('#cpf').mask('000.000.000-00', {reverse: true});
+        $('#phone').mask('(00) 0000-0000');
+
+    </script>
+
     
 </body>
 </html>

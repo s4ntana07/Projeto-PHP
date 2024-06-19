@@ -21,7 +21,7 @@
     $qtd = $res->num_rows;
 
     if($qtd > 0){
-        print "<table  class='tabela'>";
+            print "<table  class='tabela'>";
             print "<tr>";
             print "<th class='th'>CPF</th>";
             print "<th>Nome</th>";
@@ -42,11 +42,11 @@
             print "<td>".$row->telefone."</td>";
             print "<td>".$row->data_entrada."</td>";
             print "<td>
-                    <button onclick=\"location.href='?page=editar&cpf=".$row->cpf."';\" class='btn btn-success'>Editar</button>
+                    <button onclick=\"location.href='?page=editar&id=".$row->id."';\" class='btn btn-success'>Editar</button>
 
                     <button onclick=\"
                     if(confirm('Tem certeza que deseja excluir?'))
-                    {location.href='?page=salvar&acao=excluir&cpf=".$row->cpf."';}else{false}\"
+                    {location.href='?page=salvar&acao=excluir&id=".$row->id."';}else{false}\"
                     class='btn btn-danger'>Excluir</button>
                   </td>";
             print "</tr>";
