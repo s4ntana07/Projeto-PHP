@@ -20,7 +20,7 @@
         </div>
         <div class="mb-3">
             <label class="text-white">Nome</label>
-            <input id="cpf" type="text" name="nome" placeholder="Nome do funcionário" class="form-control input bg-input" required>
+            <input id="cpf" type="text" name="nome" placeholder="Nome do Funcionário" class="form-control input bg-input" required>
   
         </div>
         <div class="mb-3">
@@ -37,11 +37,11 @@
         </div>
         <div class="mb-3">
             <label class="text-white">Telefone</label>
-            <input id="phone" type="text" name="telefone" placeholder="DDD XXXX-XXXX" class="form-control input bg-input" required>
+            <input id="phone" type="text" name="telefone" placeholder="ddd xxxx-xxxx" class="form-control input bg-input" required>
         </div>
         <div class="mb-3">
             <label class="text-white">Data de entrada</label>
-            <input id="data_entrada" type="date" name="data_entrada" class="form-control input bg-input" required>
+            <input id="data_entrada" type="text" name="data_entrada" placeholder="dd/mm/aaaa" class="form-control input bg-input" required>
         </div>
         <div class="mb-3 p-3">
             <button type="submit" class="btn btn-primary p-3">Enviar</button>
@@ -49,10 +49,13 @@
     </form>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
-    
+    <script src="sweetalert.js"></script>
+
     <script>
         $('#cpf').mask('000.000.000-00', {reverse: true});
         $('#phone').mask('(00) 0000-0000');
+        $('#data_entrada').mask('00/00/0000');
+
     </script>
 
 </body>
