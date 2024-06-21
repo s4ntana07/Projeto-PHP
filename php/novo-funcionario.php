@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novo Funcionário</title>
     <style>
+        .voltar {
+            display: block;
+        }
 
+        .voltar1 {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -49,13 +55,13 @@
     </form>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
-    <script src="sweetalert.js"></script>
+    <script src="main.js"></script>
+    <script src="alert.js"></script>
 
     <script>
         $('#cpf').mask('000.000.000-00', {reverse: true});
         $('#phone').mask('(00) 0000-0000');
         $('#data_entrada').mask('00/00/0000');
-
     </script>
 
 </body>

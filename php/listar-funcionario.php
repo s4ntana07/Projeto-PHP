@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <title>Listar Funcionários</title>
-    <style>
+        <style>
 
-    </style>
+        </style>
 </head>
 <body>
+<center>
 <h1 class="text-white">Listar Funcionários</h1>
 <br>
 
+<input type="text" id="input-busca" class="form-control search" placeholder="Pesquisar Funcionário">
+</center>
 <?php
     $sql = "SELECT * FROM funcionarios";
 
@@ -21,7 +24,7 @@
     $qtd = $res->num_rows;
 
     if($qtd > 0){
-            print "<table  class='tabela'>";
+            print "<table  id='tabela'>";
             print "<tr>";
             print "<th class='th'>CPF</th>";
             print "<th>Nome</th>";
@@ -56,6 +59,6 @@
         print "<p class='alert alert-danger'>Nenhum resultado encontrado</p>";
     }
 ?>
-
+<script src="../js/search.js"></script>
 </body>
 </html>

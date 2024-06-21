@@ -6,7 +6,13 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Editar Funcionário</title>
     <style>
+        .voltar {
+            display: block;
+        }
 
+        .voltar1 {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -46,7 +52,7 @@
         </div>
         <div class="mb-3">
             <label class="text-white">Data de entrada</label>
-            <input id="data_entrada" type="date" name="data_entrada" value="<?php print $row->data_entrada; ?>" class="form-control input bg-input" required>
+            <input id="data_entrada" type="text" name="data_entrada" value="<?php print $row->data_entrada; ?>" class="form-control input bg-input" required>
         </div>
         <div class="mb-3 p-3">
             <button type="submit" class="btn btn-primary p-3">Enviar</button>
@@ -58,7 +64,7 @@
     <script>
         $('#cpf').mask('000.000.000-00', {reverse: true});
         $('#phone').mask('(00) 0000-0000');
-
+        $('#data_entrada').mask('00/00/0000');
     </script>
 
     

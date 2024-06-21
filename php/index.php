@@ -6,6 +6,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Cadastro de Funcionários</title>
+    <style>
+        .voltar {
+            display: none;
+        }
+    </style>
 
 </head>
 <body class="fundo">
@@ -28,6 +33,10 @@
                     </li>
                     <li class="left">
                         <a class="nav-link text-light" href="https://s4ntana07.github.io/Projetoshtml/">Site Informações Gazin</a>
+                    </li>
+                    <li>
+                        <a href="index.php" class="voltar text-primary nav-link">Voltar</a>
+                        <a href="../index.php" class="voltar1 text-primary nav-link">Voltar</a>
                     </li>
                 </ul>
             </div>

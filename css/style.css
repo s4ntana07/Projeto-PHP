@@ -41,6 +41,7 @@
 
 .cadastro {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
     color: #1f348f;
     font-size: 20px;
 }
@@ -96,7 +97,7 @@ td {
     padding: 5px;
     width: 280px;
     height: 60px;
-    background-color: #1f348f;
+    background-color: transparent;
     color: white;
     border:solid 3px white;
 }
@@ -135,4 +136,18 @@ label {
         width: 150px;
         height: 80px;  
     }
+}
+
+.voltar {
+    display: block;
+}
+
+.voltar1 {
+    display: none;
+}
+
+.search {
+    width: 600px;
+    margin-bottom: 30px;
+    border-radius: 20px;
 }
