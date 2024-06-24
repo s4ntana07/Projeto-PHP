@@ -9,6 +9,8 @@ primeiro CRUD, nele é possível fazer cadastros de funcionários, além disso �
 editar os cadastros ou deletar eles.</h3>
 
 Instalação
+<br>
+<hr>
 Para explorar este sistema de forma segura e simples, siga os passos abaixo:
 
 Baixando o Projeto: Faça o download clicando em <>code e selecione "Download ZIP" na página principal do projeto. Extraia a pasta após o download.
