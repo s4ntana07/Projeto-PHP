@@ -9,7 +9,6 @@ primeiro CRUD, nele é possível fazer cadastros de funcionários, além disso �
 editar os cadastros ou deletar eles.</h3>
 
 <h3>Instalação</h3>
-<br>
 <hr>
 Para explorar este sistema de forma segura e simples, siga os passos abaixo:
 
