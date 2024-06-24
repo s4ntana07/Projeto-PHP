@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../imagem/unnamed.ico" type="image/x-icon">
     <title>Listar Funcionários</title>
-        <style>
+    <style>
+    .fundo {
+        height: 100vh;
+        background:linear-gradient(#212529,#1f348f, #1f348f, #1f348f)no-repeat;
+    }
 
-        </style>
+    </style>
 </head>
-<body>
+<body class="fundo">
 <center>
 <h1 class="text-white">Listar Funcionários</h1>
 <br>

@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagem/unnamed.ico" type="image/x-icon">
     <title>Novo Funcionário</title>
     <style>
-        .voltar {
-            display: block;
-        }
+    .fundo {
+        height: 100vh;
+        background:linear-gradient(#212529,#1f348f, #1f348f, #1f348f)no-repeat;
+    }
 
-        .voltar1 {
-            display: none;
-        }
     </style>
 </head>
 <body>
@@ -31,7 +30,7 @@
         </div>
         <div class="mb-3">
             <label class="text-white">E-mail</label>
-            <input id="email" type="email" name="email" placeholder="@gazin.com.br" class="form-control input bg-input" required>
+            <input id="email" type="email" name="email" placeholder="@gmail.com" class="form-control input bg-input" required>
         </div>
         <div class="mb-3">
             <label class="text-white">Setor</label>

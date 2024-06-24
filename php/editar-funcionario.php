@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../imagem/unnamed.ico" type="image/x-icon">
     <title>Editar Funcionário</title>
     <style>
-        .voltar {
-            display: block;
-        }
+    .fundo {
+        height: 100vh;
+        background:linear-gradient(#212529,#1f348f, #1f348f, #1f348f)no-repeat;
+    }
 
-        .voltar1 {
-            display: none;
-        }
     </style>
 </head>
 <body>
