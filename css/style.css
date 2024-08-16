@@ -1,18 +1,26 @@
-.body {
-    height: 100vh;
-    background:linear-gradient(45deg, #081239, #1f348f, #1f348f, #1f348f, #081239);
+body, html {
+    margin: 0;
+    height: 100%;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background:linear-gradient( #0b184a, #1f348f, #1f348f, #1f348f, #1f348f, #0b184a);
 }
 
 #div-login {
-    margin-top: 50px;
-    background-color: #99a2cd;
-    width: 800px;
-    border-radius: 10px;
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffffc2;
+    width: 700px;
+    border-radius: 5px;
+    height: 550px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
 }
 
 .h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 45px;
     color: #132160;
 }
@@ -24,45 +32,50 @@
     height: 60px;
     border: 5px;
     background-color: #ffffff97;
-    box-shadow: #30408aae 8px 8px;
     font-size: 16px;
 }
+
 
 .button {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     font-size: 17px;
     margin: 20px;
-    width: 140px;
+    width: 130px;
     height: 70px;
-    background-color:#081239;
+    background-color:#0e1c55;
     border-radius: 7px;
+    border: 0px;
 }
 
 .cadastro {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: #1f348f;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #div-login-cadastro {
-    margin-top: 50px;
-    background-color: #99a2cd;
-    width: 800px;
-    border-radius: 10px;
-    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffffc2;
+    width: 700px;
+    border-radius: 5px;
+    height: 580px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
 }
 
 .button-cadastro {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     color: white;
     font-size: 19px;
     margin: 30px;
-    width: 140px;
+    width: 130px;
     height: 70px;
-    background-color:#081239;
+    background-color:#0e1c55;
     border-radius: 7px;
+    border: 0px;
 }
 
 .button-cadastro:hover {
@@ -120,21 +133,19 @@ label {
 }
 
 .button:hover {
-    transition: ease-in-out;
+    transition: all 0.5s;
     animation: button 1s forwards;
 }
 
 @keyframes button {
     from {
-        background-color: #081239;
-        width: 140px;
+        width: 130px;
         height: 70px;
     }
     
     to {
         background-color: #344794;
-        width: 150px;
-        height: 80px;  
+        scale: 1.05;
     }
 }
 
@@ -150,4 +161,10 @@ label {
     width: 600px;
     margin-bottom: 30px;
     border-radius: 20px;
+}
+
+.p-cadastro {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
 }

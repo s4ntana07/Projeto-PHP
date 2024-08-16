@@ -52,14 +52,12 @@
 <body class="body">
     
     <center>
-        <div>
-            <img src="imagem/24b37378-d1ad-42a6-b917-e891fa7399b9.jpg" width="300px">
-        </div>
+        
     
 
 
 <div id="div-login">
-    <h1 class="h1">Login</h1>
+    
     <?php
         if(!empty($erros)) {
             foreach($erros as $erro) {
@@ -68,13 +66,18 @@
         }
     ?>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
-        <img src="imagem/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg" width="30px">
-        <input type="text" name="login" placeholder="Usuário" class="input1"><br>
-        <img src="php/imagens/png-transparent-computer-icons-padlock-lock-technic-symbol-key-thumbnail.png" width="30px"> 
-        <input type="password" name="senha" placeholder="Senha" class="input1"><br>
+        <div>
+            <img src="imagem/Gazin_1_cca4b227db.webp" width="300px">
+        </div>
+        <img src="php\imagens\pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg" width="30px">
+        <input type="text" name="login" placeholder="Digite seu usuário" class="input1"><br>
+        <img src="imagem\png-transparent-computer-icons-padlock-lock-technic-symbol-key-thumbnail.png" width="30px"> 
+        <input type="password" name="senha" placeholder="******" class="input1"><br>
         <button type="submit" name="btn-entrar" class="button"> <h3>Entrar</h3> </button>
     </form>
-    <a href="cadastro.php" class="cadastro"><h3>Cadastre-se</h3></a>
+    <p class="p-cadastro">
+        Ainda não tem um cadastro? <a href="cadastro.php" class="cadastro">Cadastre-se</a>
+    </p>
 </div>
 </center>
 </body>

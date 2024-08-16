@@ -12,12 +12,12 @@
 
 <body class="body">
     <center>
-    <section>
-        <img src="imagem/24b37378-d1ad-42a6-b917-e891fa7399b9.jpg" width="300px">
-    </section>
-
 <div id="div-login-cadastro">
-    <h1 class="h1">Cadastrar</h1>
+    
+    <div>
+        <img src="imagem/Gazin_1_cca4b227db.webp" width="300px">
+    </div>
+
 
     <form action="?page=salvar" class="formulario" method="POST">
     <input type="hidden" name="acao" value="cadastrar-usuario">
